@@ -1,5 +1,6 @@
 <?php
 
+use SyauqiDamarioDjohan\Learn\PHP\MVC\App\View;
 
 class HomeController
 {
@@ -11,7 +12,7 @@ class HomeController
                   "content" => "Selamat Belajar PHP MVC dari Programmer Zaman Now"
             ];
 
-            echo "HomeController.index()";
+            View::render('Home/index', $model);
       }
 
       function hello(): void
