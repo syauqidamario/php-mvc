@@ -1,5 +1,7 @@
 <?php
 
+namespace SyauqiDamarioDjohan\Learn\PHP\MVC\Controller;
+
 use SyauqiDamarioDjohan\Learn\PHP\MVC\App\View;
 
 class HomeController
